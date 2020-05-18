@@ -20,8 +20,6 @@ const (
 func BunnyHQ(input string) (result float64) {
 	p := Point{north,0, 0}
 
-	//input := "R2,R2,R2"
-	//input := "R5,L5,R5,R3"
 	inputs := strings.Split(input, ",")
 	for _,v := range inputs {
 		if string(v[0]) == "R" {
