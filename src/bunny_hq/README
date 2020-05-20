@@ -1,0 +1,9 @@
+This is a Golang solution for the problem as stated in 
+
+https://adventofcode.com/2016/day/4
+
+Assuming you have go installed locally. Just run the following command and it would pass!
+
+$ go test
+
+
